@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'THNSrollRullerView_Example' do
+  pod 'THNSrollRullerView', :path => '../'
+
+  target 'THNSrollRullerView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
