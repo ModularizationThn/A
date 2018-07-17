@@ -38,9 +38,10 @@
         _rullerView = [[ICXFoodScrollRullerView alloc]initWithFrame:CGRectMake(10, ScreenHeight/5.0*0.5+20, ScreenWidth-20, rullerHeight) theMinValue:1 theMaxValue:10000 theStep:1 theUnit:@"克" theNum:10 gradientColorArr:@[[UIColor whiteColor], [UIColor colorWithWhite:1 alpha:0]] gradientWidth:100 indicatorViewType:IndicatorViewTypeypeLine];
         [_rullerView setDefaultValue:100 animated:YES];
         _rullerView.bgColor = [UIColor whiteColor];
-        _rullerView.delegate        = self;
+        _rullerView.delegate        = (id)self;
         _rullerView.scrollByHand    = YES;
         _rullerView.showBotoomUnit = NO;
+        _rullerView.allowUserActiveValueTF = NO;
     }
     return _rullerView;
 }
@@ -54,7 +55,7 @@
         [_timeRullerView setDefaultValue:2 animated:YES];
         _timeRullerView.bgColor = [UIColor orangeColor];
         _timeRullerView.indicatorColor   = [UIColor redColor];
-        _timeRullerView.delegate        = self;
+        _timeRullerView.delegate        = (id)self;
         _timeRullerView.scrollByHand    = YES;
     }
     return _timeRullerView;

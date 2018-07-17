@@ -355,6 +355,11 @@
     _triangle.triangleColor = _indicatorColor;
 }
 
+- (void)setAllowUserActiveValueTF:(BOOL)allowUserActiveValueTF{
+    _allowUserActiveValueTF = allowUserActiveValueTF;
+    self.valueTF.userInteractionEnabled = allowUserActiveValueTF;
+}
+
 -(void)setRealValue:(float)realValue{
     [self setRealValue:realValue animated:NO];
 }

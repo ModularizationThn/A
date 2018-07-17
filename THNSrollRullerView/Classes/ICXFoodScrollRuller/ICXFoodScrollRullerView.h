@@ -28,7 +28,10 @@ typedef NS_ENUM(NSUInteger, IndicatorViewType) {
 
 //滑动时是否改变textfield值
 @property(nonatomic, assign)BOOL scrollByHand;
+//是否显示底部文字的单位
 @property(nonatomic, assign)BOOL showBotoomUnit;
+//是否允许尺子上面的TextFile交互
+@property(nonatomic, assign)BOOL allowUserActiveValueTF;
 
 //指示条颜色
 @property(nonatomic,strong)UIColor *indicatorColor;
