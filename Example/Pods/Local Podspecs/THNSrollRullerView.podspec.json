@@ -1,0 +1,22 @@
+{
+  "name": "THNSrollRullerView",
+  "version": "0.1.0",
+  "summary": "A short description of THNSrollRullerView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/TPQuietBro/THNSrollRullerView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "TPQuietBro": "tanghouneng@icarbonx.com"
+  },
+  "source": {
+    "git": "https://github.com/TPQuietBro/THNSrollRullerView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "THNSrollRullerView/Classes/**/*"
+}

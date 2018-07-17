@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1409040620FDBC37009AC8B5 /* THNTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1409040520FDBC37009AC8B5 /* THNTwoViewController.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -37,7 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		143C9310716964C3D4F69BFD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		1409040420FDBC37009AC8B5 /* THNTwoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = THNTwoViewController.h; sourceTree = "<group>"; };
+		1409040520FDBC37009AC8B5 /* THNTwoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THNTwoViewController.m; sourceTree = "<group>"; };
+		143C9310716964C3D4F69BFD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		25EB47F2B703A6E14B16563D /* Pods-THNSrollRullerView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THNSrollRullerView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-THNSrollRullerView_Example/Pods-THNSrollRullerView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		3D9857487538911D445D9CFF /* Pods-THNSrollRullerView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THNSrollRullerView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-THNSrollRullerView_Tests/Pods-THNSrollRullerView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* THNSrollRullerView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = THNSrollRullerView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -59,14 +62,14 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6572E0361DC3D2E973A521C2 /* THNSrollRullerView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = THNSrollRullerView.podspec; path = ../THNSrollRullerView.podspec; sourceTree = "<group>"; };
+		6572E0361DC3D2E973A521C2 /* THNSrollRullerView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = THNSrollRullerView.podspec; path = ../THNSrollRullerView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		96611EF86DD1A1D2B763CF2A /* Pods-THNSrollRullerView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THNSrollRullerView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-THNSrollRullerView_Tests/Pods-THNSrollRullerView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9F9D69B1EA62770BD644619D /* Pods_THNSrollRullerView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_THNSrollRullerView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AECF97FC778C86E5ED037A65 /* Pods-THNSrollRullerView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THNSrollRullerView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-THNSrollRullerView_Example/Pods-THNSrollRullerView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D38A6E876A2AD1AAD0213714 /* Pods_THNSrollRullerView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_THNSrollRullerView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE06FAA50FC338CB1C6A6BAB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		EE06FAA50FC338CB1C6A6BAB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +140,8 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* THNViewController.h */,
 				6003F5A6195388D20070C39A /* THNViewController.m */,
+				1409040420FDBC37009AC8B5 /* THNTwoViewController.h */,
+				1409040520FDBC37009AC8B5 /* THNTwoViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -247,6 +252,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = TPQuietBro;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = RNL7SY23B3;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -355,6 +363,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1409040620FDBC37009AC8B5 /* THNTwoViewController.m in Sources */,
 				6003F59E195388D20070C39A /* THNAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* THNViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
@@ -485,6 +494,7 @@
 			baseConfigurationReference = AECF97FC778C86E5ED037A65 /* Pods-THNSrollRullerView_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RNL7SY23B3;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "THNSrollRullerView/THNSrollRullerView-Prefix.pch";
 				INFOPLIST_FILE = "THNSrollRullerView/THNSrollRullerView-Info.plist";
@@ -500,6 +510,7 @@
 			baseConfigurationReference = 25EB47F2B703A6E14B16563D /* Pods-THNSrollRullerView_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RNL7SY23B3;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "THNSrollRullerView/THNSrollRullerView-Prefix.pch";
 				INFOPLIST_FILE = "THNSrollRullerView/THNSrollRullerView-Info.plist";

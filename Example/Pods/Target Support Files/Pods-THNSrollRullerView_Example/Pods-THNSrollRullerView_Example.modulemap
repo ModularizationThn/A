@@ -1,0 +1,6 @@
+framework module Pods_THNSrollRullerView_Example {
+  umbrella header "Pods-THNSrollRullerView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

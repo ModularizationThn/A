@@ -1,0 +1,16 @@
+PODS:
+  - THNSrollRullerView (0.1.0)
+
+DEPENDENCIES:
+  - THNSrollRullerView (from `../`)
+
+EXTERNAL SOURCES:
+  THNSrollRullerView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  THNSrollRullerView: 52d6b81ef52e5c1de6fa0616b60b09526cc3b7d3
+
+PODFILE CHECKSUM: 9144ee3bbbf5a2eaed79133ac2116eb2bb43b3b4
+
+COCOAPODS: 1.5.3
