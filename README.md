@@ -22,7 +22,7 @@ pod 'THNSrollRullerView'
 
 ## Author
 
-TPQuietBro, tanghouneng@icarbonx.com
+thneng, tanghouneng@icarbonx.com
 
 ## License
 
